@@ -2,7 +2,7 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "nuxt build && sed -i 's|goku|kau/goku|' .vercel/output/config.json",
+    "build": "nuxt build && sed -i 's|goku|kau/goku|' .vercel/output/config.json && cat .vercel/output/config.json",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
