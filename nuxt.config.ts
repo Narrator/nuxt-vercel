@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     preset: 'vercel',
   },
   app: {
-    buildAssetsDir: 'goku'
+    baseURL: '/kau',
+    buildAssetsDir: 'goku' // _nuxt
   }
 })
